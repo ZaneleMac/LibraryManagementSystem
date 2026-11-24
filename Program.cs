@@ -59,7 +59,7 @@ while (true)
 
 static void SeedSampleData(LibraryService library)
 {
-    library.AddBook(new Book("B1", "Clean Code", "Robert C. Martin", 2));
+    library.AddBook(new Book("B1", "Clean C", "Robert C. Martin", 2));
     library.AddBook(new Book("B2", "C# in Depth", "Jon Skeet", 1));
     library.AddBook(new Book("B3", "Designing Data-Intensive Applications", "Martin Kleppmann", 2));
 
